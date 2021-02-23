@@ -23,6 +23,8 @@ Created a series of scatter plots to showcase the following relationships:
 * Cloudiness (%) vs. Latitude
 * Wind Speed (mph) vs. Latitude
 
+![](images/weather.gif)
+
 
 Ran linear regressions on each relationship, separating them into Northern Hemisphere (greater than or equal to 0 degrees latitude) and Southern Hemisphere (less than 0 degrees latitude):
 
