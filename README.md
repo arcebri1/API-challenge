@@ -37,12 +37,17 @@ Ran linear regressions on each relationship, separating them into Northern Hemis
 * Northern Hemisphere - Wind Speed (mph) vs. Latitude
 * Southern Hemisphere - Wind Speed (mph) vs. Latitude
 
+![](images/north.gif)
+![](images/south.gif)
+
 
 ### VacationPy
 
 I used jupyter-gmaps and the Google Places API to:
 
 * Create a heat map that displays the humidity for every city from the WeatherPy
+
+![](VacationPy/Heat Maps/HeatMap1.png)
 
 * Narrowed down the DataFrame to find the ideal weather condition. For example:
 
@@ -54,9 +59,15 @@ I used jupyter-gmaps and the Google Places API to:
 
   * Drop any rows that don't contain all three conditions.
 
+![](images/idealweatherdf.png)
+
 * Used Google Places API to find the first hotel for each city located within 5000 meters of the coordinates.
 
+![](images/nearbyhotels.png)
+
 * Plotted the hotels on top of the humidity heatmap with each pin containing the **Hotel Name**, **City**, and **Country**.
+
+![](VacationPy/Heat Maps/HeatMap Markers.png)
 
 
 - - -
